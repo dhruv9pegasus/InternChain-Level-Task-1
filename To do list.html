@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+li {
+    margin: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.veryUrgent {
+    color: red;
+}
+
+.notImportant {
+    color: gray;
+}
+    </style>
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
